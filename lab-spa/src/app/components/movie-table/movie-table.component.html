@@ -1,0 +1,32 @@
+<h1>Tabela de Filmes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>ID</td>
+      <td>Titulo</td>
+      <td>Gênero</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Deu a louca na chapeuzinho</td>
+      <td>Animação,Comédia</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>O senhor dos anéis: a sociedade do anel</td>
+      <td>Aventura,Épico,Fantasia</td>
+    </tr>
+    <ng-container *ngFor="let m of movies">
+      <tr>
+        <td> {{m.id}}</td>
+        <td> {{m.title}}</td>
+        <td> {{m.genre}}</td>
+      </tr>
+    </ng-container>
+  </tbody>
+
+</table>

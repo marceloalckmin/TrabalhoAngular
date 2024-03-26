@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  padding: 5vw;
+  margin: 10vw;
+  border: 1px solid grey;
+}
+
+.home-item {
+  font-size: 1.25 rem;
+  font-family: monospace;
+  color: rgba(11, 13, 139, 0.788);
+}
